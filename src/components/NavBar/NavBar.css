@@ -1,0 +1,42 @@
+.navbar {
+  height: 80px;
+  border-radius: 30px;
+  flex-wrap: nowrap;
+  margin-top: 20px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar-item {
+  text-align: center;
+  height: 55%;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0px 25px;
+  cursor: pointer;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+  margin-left: 40px;
+}
+@media (max-width: 769px) {
+  .navbar-item {
+    font-size: 12px;
+    padding: 0px 5px;
+    margin-left: 8px;
+  }
+  .navbar {
+    padding: 0px 30px;
+  }
+  .navbar .logo {
+    width: 50px;
+  }
+}
+
+.nav-bar-links {
+  height: 100%;
+}

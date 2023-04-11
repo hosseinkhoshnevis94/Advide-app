@@ -1,0 +1,23 @@
+.card {
+  width: 50%;
+  height: 254px;
+  border-radius: 20px;
+  padding: 5px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  /* background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB); */
+  border: 1px solid #a3a3a3;
+}
+
+.card__content {
+  font-family: 'Caveat', cursive;
+
+  background: rgb(250, 250, 250);
+  border-radius: 17px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 24px;
+}
